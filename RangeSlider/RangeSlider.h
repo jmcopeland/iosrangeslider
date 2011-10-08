@@ -2,9 +2,6 @@
 //  RangeSlider.h
 //  RangeSlider
 //
-//  Created by Mal Curtis on 5/08/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
@@ -31,5 +28,8 @@
 @property(nonatomic) float minimumRange;
 @property(nonatomic) float selectedMinimumValue;
 @property(nonatomic) float selectedMaximumValue;
+
+- (void) reset;
+- (void) setMinRating:(CGFloat)minRating maxRating:(CGFloat)maxRating;
 
 @end
